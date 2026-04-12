@@ -1,0 +1,138 @@
+shape: (8215957, 75)
+
+year counts:
+summary_year
+2017    1088696
+2018    1121467
+2019    1155877
+2020    1161541
+2021    1198753
+2022    1230288
+2023    1259335
+
+target counts:
+target_excluded_24m
+0    8214964
+1        993
+
+target rate: 0.00012086236575970395
+duplicate (npi_clean, summary_year) rows: 85
+
+top missing %:
+stdzd_to_pymt_ratio                            0.000767
+alowd_to_pymt_ratio                            0.000767
+sbmtd_to_pymt_ratio                            0.000767
+alowd_to_pymt_ratio_specialty_year_pct_rank    0.000767
+sbmtd_to_pymt_ratio_specialty_year_pct_rank    0.000767
+tot_srvcs                                      0.000000
+tot_benes                                      0.000000
+target_excluded_24m                            0.000000
+npi_clean                                      0.000000
+summary_year                                   0.000000
+rndrng_prvdr_type                              0.000000
+tot_benes_missing                              0.000000
+tot_mdcr_stdzd_amt                             0.000000
+tot_mdcr_pymt_amt                              0.000000
+tot_mdcr_alowd_amt                             0.000000
+tot_sbmtd_chrg                                 0.000000
+tot_sbmtd_chrg_missing                         0.000000
+tot_mdcr_stdzd_amt_missing                     0.000000
+tot_srvcs_missing                              0.000000
+alowd_amt_per_bene                             0.000000
+sbmtd_chrg_per_bene                            0.000000
+srvcs_per_bene                                 0.000000
+pymt_amt_per_bene                              0.000000
+pymt_amt_per_srvc                              0.000000
+alowd_amt_per_srvc                             0.000000
+tot_mdcr_alowd_amt_missing                     0.000000
+tot_mdcr_pymt_amt_missing                      0.000000
+log1p_tot_benes                                0.000000
+log1p_tot_srvcs                                0.000000
+log1p_tot_sbmtd_chrg                           0.000000
+
+constant columns:
+                    column
+         tot_benes_missing
+         tot_srvcs_missing
+    tot_sbmtd_chrg_missing
+tot_mdcr_alowd_amt_missing
+ tot_mdcr_pymt_amt_missing
+tot_mdcr_stdzd_amt_missing
+
+dtype summary:
+                                                column   dtype
+                                             npi_clean     str
+                                          summary_year   int64
+                                     rndrng_prvdr_type     str
+                                   target_excluded_24m   int64
+                                             tot_benes   int64
+                                             tot_srvcs float64
+                                        tot_sbmtd_chrg float64
+                                    tot_mdcr_alowd_amt float64
+                                     tot_mdcr_pymt_amt float64
+                                    tot_mdcr_stdzd_amt float64
+                                     tot_benes_missing   int64
+                                     tot_srvcs_missing   int64
+                                tot_sbmtd_chrg_missing   int64
+                            tot_mdcr_alowd_amt_missing   int64
+                             tot_mdcr_pymt_amt_missing   int64
+                            tot_mdcr_stdzd_amt_missing   int64
+                                        srvcs_per_bene float64
+                                   sbmtd_chrg_per_bene float64
+                                    alowd_amt_per_bene float64
+                                     pymt_amt_per_bene float64
+                                   sbmtd_chrg_per_srvc float64
+                                    alowd_amt_per_srvc float64
+                                     pymt_amt_per_srvc float64
+                                  sbmtd_to_alowd_ratio float64
+                                   alowd_to_pymt_ratio float64
+                                   stdzd_to_pymt_ratio float64
+                                   sbmtd_to_pymt_ratio float64
+                                       log1p_tot_benes float64
+                                       log1p_tot_srvcs float64
+                                  log1p_tot_sbmtd_chrg float64
+                              log1p_tot_mdcr_alowd_amt float64
+                               log1p_tot_mdcr_pymt_amt float64
+                              log1p_tot_mdcr_stdzd_amt float64
+                                  log1p_srvcs_per_bene float64
+                             log1p_sbmtd_chrg_per_bene float64
+                              log1p_alowd_amt_per_bene float64
+                               log1p_pymt_amt_per_bene float64
+                             log1p_sbmtd_chrg_per_srvc float64
+                              log1p_alowd_amt_per_srvc float64
+                               log1p_pymt_amt_per_srvc float64
+                       tot_benes_specialty_year_median float64
+                 tot_benes_minus_specialty_year_median float64
+                     tot_benes_specialty_year_pct_rank float64
+                       tot_srvcs_specialty_year_median float64
+                 tot_srvcs_minus_specialty_year_median float64
+                     tot_srvcs_specialty_year_pct_rank float64
+                  tot_sbmtd_chrg_specialty_year_median float64
+            tot_sbmtd_chrg_minus_specialty_year_median float64
+                tot_sbmtd_chrg_specialty_year_pct_rank float64
+              tot_mdcr_alowd_amt_specialty_year_median float64
+        tot_mdcr_alowd_amt_minus_specialty_year_median float64
+            tot_mdcr_alowd_amt_specialty_year_pct_rank float64
+               tot_mdcr_pymt_amt_specialty_year_median float64
+         tot_mdcr_pymt_amt_minus_specialty_year_median float64
+             tot_mdcr_pymt_amt_specialty_year_pct_rank float64
+              tot_mdcr_stdzd_amt_specialty_year_median float64
+        tot_mdcr_stdzd_amt_minus_specialty_year_median float64
+            tot_mdcr_stdzd_amt_specialty_year_pct_rank float64
+                srvcs_per_bene_specialty_year_pct_rank float64
+           sbmtd_chrg_per_bene_specialty_year_pct_rank float64
+            alowd_amt_per_bene_specialty_year_pct_rank float64
+             pymt_amt_per_bene_specialty_year_pct_rank float64
+          sbmtd_to_alowd_ratio_specialty_year_pct_rank float64
+           alowd_to_pymt_ratio_specialty_year_pct_rank float64
+           sbmtd_to_pymt_ratio_specialty_year_pct_rank float64
+          flag_top1pct_tot_srvcs_within_specialty_year   int64
+          flag_top5pct_tot_srvcs_within_specialty_year   int64
+  flag_top1pct_tot_mdcr_pymt_amt_within_specialty_year   int64
+  flag_top5pct_tot_mdcr_pymt_amt_within_specialty_year   int64
+ flag_top1pct_tot_mdcr_alowd_amt_within_specialty_year   int64
+ flag_top5pct_tot_mdcr_alowd_amt_within_specialty_year   int64
+     flag_top1pct_srvcs_per_bene_within_specialty_year   int64
+     flag_top5pct_srvcs_per_bene_within_specialty_year   int64
+flag_top1pct_sbmtd_to_pymt_ratio_within_specialty_year   int64
+flag_top5pct_sbmtd_to_pymt_ratio_within_specialty_year   int64

@@ -1,0 +1,2 @@
+source_file,rows,exclusion_column_used,reinstatement_column_used,non_null_exclusion_dates,non_null_reinstatement_dates,reinstatement_before_exclusion_rows
+data/processed/provider_year_joined.parquet,8216039,excldate,reindate,5157,0,0

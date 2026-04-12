@@ -1,0 +1,2 @@
+rows,positives,positive_rate,exclusion_column_used,bad_positive_rows,prior_or_same_year_exclusion_rows_present
+8215957,993,0.00012086236575970395,excldate,0,0
