@@ -1,4 +1,4 @@
-# Full Data Dictionary (v3)
+﻿# Full Data Dictionary (v3)
 
 ## npi_clean
 - dtype: str
@@ -374,3 +374,4 @@
 - dtype: int64
 - role: rarity_flag
 - description: Top 5 percent flag within specialty-year group: flag_top5pct_sbmtd_to_pymt_ratio_within_specialty_year
+

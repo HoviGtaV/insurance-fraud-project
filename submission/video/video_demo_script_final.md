@@ -1,4 +1,4 @@
-# Final 3-Minute Demo Script
+﻿# Final 3-Minute Demo Script
 
 ## 0:00 - 0:20
 This project builds a provider-level Medicare fraud-risk scoring system using public Medicare summary data and OIG exclusion-based proxy labels.
@@ -26,3 +26,4 @@ For deployment, we built a batch scorer that accepts a feature-ready provider-ye
 
 ## 2:45 - 3:00
 The final system is a technically credible risk-ranking prototype with honest framing, but it should be used for review prioritization rather than legal judgment.
+

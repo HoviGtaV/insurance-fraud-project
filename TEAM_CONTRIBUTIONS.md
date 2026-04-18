@@ -1,18 +1,18 @@
-# Team Contributions
+﻿# Team Contributions
 
-## REAL FULL NAME 1
+## Wassim Mouawad
 - Raw data cleaning
 - schema audit
 - provider-year feature engineering
 - split creation
 
-## REAL FULL NAME 2
+## Hovig Majarian
 - Logistic baseline
 - CatBoost training
 - final holdout evaluation
 - SHAP explainability
 
-## REAL FULL NAME 3
+## Rayan Salman
 - Batch scorer
 - Docker packaging
 - README
@@ -20,3 +20,5 @@
 
 ## Contribution Rule
 Each team member must commit from their own GitHub account so the repository history clearly shows three contributors.
+
+

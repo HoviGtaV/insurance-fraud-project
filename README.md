@@ -1,4 +1,4 @@
-# Insurance Fraud Project � Provider-Level Medicare Risk Scoring
+﻿# Insurance Fraud Project — Provider-Level Medicare Risk Scoring
 
 ## Project Summary
 This project builds a provider-level Medicare fraud-risk scoring system using public Medicare provider summary data and OIG exclusion-based proxy labels.
@@ -144,3 +144,4 @@ docker run --rm -v "${PWD}\examples:/app/examples" insurance-fraud-risk:latest p
 ## Team Contributions
 See:
 - `TEAM_CONTRIBUTIONS.md`
+

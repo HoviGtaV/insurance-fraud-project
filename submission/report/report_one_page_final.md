@@ -1,12 +1,12 @@
-# Final One-Page Report
+﻿# Final One-Page Report
 
 ## Team Members
-- REAL FULL NAME 1
-- REAL FULL NAME 2
-- REAL FULL NAME 3
+- Wassim Mouawad
+- Hovig Majarian
+- Rayan Salman
 
 ## Project Title
-Insurance Fraud Project � Provider-Level Medicare Risk Scoring from Claims Summaries and Exclusion Labels
+Insurance Fraud Project — Provider-Level Medicare Risk Scoring from Claims Summaries and Exclusion Labels
 
 ## Data Source
 This project uses public CMS Medicare provider summary data for years 2017-2023 and OIG LEIE exclusion data. The unit of analysis is the provider-year.
@@ -43,3 +43,5 @@ Official final model: CatBoost
 
 ## Interpretation
 The final model captures real ranking signal above random selection in a highly imbalanced and noisy proxy-label setting. However, very small top-K precision remains limited. Therefore, the system is best interpreted as a provider risk-ranking prototype for review prioritization, not a definitive fraud detection system.
+
+

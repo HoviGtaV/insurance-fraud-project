@@ -1,4 +1,4 @@
-# Label Policy Appendix
+﻿# Label Policy Appendix
 
 ## Objective
 This project predicts provider-level Medicare risk using exclusion-based proxy labels. The model produces a risk score, not a legal fraud judgment.
@@ -57,3 +57,4 @@ The target is a proxy based on exclusion information. It does not prove fraud, g
 - exclusion may happen after provider behavior reflected in claims summaries
 - some high-risk providers may never be excluded
 - the current deployment story is strongest for batch scoring of feature-ready provider-year tables
+
